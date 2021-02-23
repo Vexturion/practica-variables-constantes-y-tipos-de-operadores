@@ -36,7 +36,8 @@ public class PracticaVariablesYConstantes {
         System.out.println("El valor final de n4 es " + n4);
         
         
-        //Los operadores logicos siempre devuelven resultados booleanos, es decir VERDADERO o FALSO. Los operadores logicos en Java son los siguientes
+        // Operadores relacionales en Java
+        //Los operadores relacionales siempre devuelven resultados booleanos, es decir VERDADERO o FALSO. Los operadores logicos en Java son los siguientes
         boolean igual = n1==n2; //Evalua si dos valores son iguales
         System.out.println(igual);
         
@@ -55,6 +56,8 @@ public class PracticaVariablesYConstantes {
         boolean esMayorOIgualA = n2>=n3;  //Evalua si un valor es igual o mayor que otro
         System.out.println(esMayorOIgualA);
         
+        
+        // Operadores logicos en Java
         boolean and = n2>n1 && n3>n4; //Operador AND (y) requiere que dos condiciones se cumplan
         System.out.println(and);
         
